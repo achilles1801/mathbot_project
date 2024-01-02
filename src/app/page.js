@@ -8,7 +8,7 @@ export default function Home() {
   const [response, setResponse] = useState([]);
 
   const handleClick = () => {
-    fetch('http://mathbot.majdk.com/chat',{
+    fetch('https://mathbot.majdk.com/chat',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
